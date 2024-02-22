@@ -1,0 +1,12 @@
+<h3>{{serverConnectionStatusContent}}</h3>
+<form action="">
+    <input type="text" placeholder={{firstnameContent}}>
+    <input type="text" placeholder={{lastnameContent}}>
+    <input type="text" placeholder={{emailContent}}>
+    <input type="text" placeholder={{passwordContent}}>
+    <button (click)="createdUserData()">Create</button>
+
+    <div>
+        <input type="text" [ngModel]="userContent">
+    </div>
+</form>
